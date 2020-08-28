@@ -1,0 +1,46 @@
+.banner {
+  position: relative;
+}
+
+.menu a {
+  color: #8D8D8D;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.menu a:hover {
+  color: #8D8D8D;
+}
+
+.intro {
+  color: white;
+  position: absolute;
+  left: 1100px;
+  top: 350px;
+}
+
+.intro p {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.intro .btn-white {
+  border-radius: 50px;
+  padding: 15px 100px;
+  border: 1px white solid;
+  color: white;
+}
+
+.intro .btn-white:hover {
+  background-color: white;
+  color: #916000;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+/*# sourceMappingURL=index.css.map */
