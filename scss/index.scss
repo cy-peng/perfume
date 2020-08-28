@@ -78,9 +78,6 @@ p{
 .footer{
     background-color: $primary;
     color:$white;
-    p,a{
-        padding-top:20px;
-    }
 }
 .recycle{
     padding-top:82px;
@@ -100,4 +97,11 @@ p{
         line-height:48px;
         font-weight:1000;
     }
+}
+.brand{
+    background-color: $primary;
+    color:$white;
+}
+.pt-20{
+    padding-top:20px;
 }
