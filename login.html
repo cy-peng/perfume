@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta name="viewport" content="width=device-width, initial-scale=">
-    <title>Login</title>
+    <title>D`PERFUME</title>
     <link rel="stylesheet" href="scss/all.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
@@ -13,21 +13,22 @@
 <body>
     <div class="container">
         <div class="row menu">
-          <div class="col">
+          <div class="col pt-10">
             <a href=""><img src="img/logo.png" alt=""></a>
           </div>
-          <div class="col d-flex justify-content-around">
+          <div class="col d-flex justify-content-around pt-20">
                 <a href=""><img class="mr-10" src="img/tshirt.png" alt="">Product</a>
-                <a href=""><img class="mr-10" src="img/user.png" alt="">log in</a>
+                <a href="login.html"><img class="mr-10" src="img/user.png" alt="">log in</a>
                 <a href=""><img class="mr-10" src="img/heart.png" alt="">Wishlist</a>
                 <a href=""><img  class="mr-10" src="img/cart.png" alt="">Cart(3)</a>
             </div>
           </div>
         </div>
 
+
         <div class="container-fluid brand">
             <div class="container">
-            <div class="row">
+            <div class="row mb-80">
                 <ul class="col-6 d-flex justify-content-between pt-20 list-inline">
                     <a href=""><li>CHANEL</li></a>
                     <a href=""><li>Jo Malone</li></a>
@@ -40,3 +41,51 @@
         </div>
         </div>
 
+        <div class="container">
+        <div class="row mb-80">
+            <div class="col-8">
+                <img src="img/login.png" alt="">
+            </div>
+            <div class="col-4">
+                <form>
+                    <form>  
+                        <div class="mb-20">
+                            <h1>Log in</h1>
+                            <label for="email">帳號</label>
+                            <input type="email"class="form-control" placeholder="email@example.com">
+                            <label for="Password">密碼</label>
+                            <input type="text" class="form-control"placeholder="Password">
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <a href=""class="primary">忘記密碼</a>
+                            <div>
+                                <button type="submit" class="btn btn-outline-primary">註冊</button>
+                                <button type="submit" class="btn btn-primary">登入</button>
+                            </div>
+                         </div>
+                </form>
+           </div>
+        </div>
+        </div>
+
+        
+    <div class="container-fluid footer">
+        <div class="container">
+        <div class="row">
+            <div class="col-4 d-flex justify-content-between pt-20">
+                <img src="img/logo_white.png" alt="">
+                <p>© 2020. All Rights Reserved.</p>
+            </div>
+            <div class="col-5"></div>
+            <ul class="col-3 d-flex justify-content-between pt-20 list-inline">
+                <li>Product</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+    </div>
+
+
+    </body>
+    </html>

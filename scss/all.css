@@ -10810,7 +10810,6 @@ img {
 
 .menu a {
   color: #8D8D8D;
-  margin-top: 10px;
   margin-bottom: 15px;
 }
 
@@ -10821,13 +10820,13 @@ img {
 .intro {
   color: #fff;
   position: absolute;
-  left: 1100px;
-  top: 350px;
+  left: 1400px;
+  top: 400px;
 }
 
 .intro h1 {
-  font-size: 32px;
-  line-height: 48px;
+  font-size: 40px;
+  line-height: 60px;
 }
 
 .intro p {
@@ -10835,17 +10834,14 @@ img {
   line-height: 36px;
 }
 
+.intro .btn-white {
+  font-size: 28px;
+  line-height: 36px;
+}
+
 .intro .btn-white:hover {
   background-color: #fff;
   color: #916000;
-}
-
-.mr-10 {
-  margin-right: 10px;
-}
-
-.mb-60 {
-  margin-bottom: 60px;
 }
 
 .btn-white {
@@ -10906,8 +10902,8 @@ p {
 
 .subscribe {
   position: absolute;
-  left: 250px;
-  top: 200px;
+  left: 400px;
+  top: 300px;
 }
 
 .subscribe h1 {
@@ -10917,13 +10913,36 @@ p {
   font-weight: 1000;
 }
 
+.email {
+  height: 60px;
+}
+
 .brand {
   background-color: #916000;
   color: #fff;
-  border: #fff;
+}
+
+.pt-10 {
+  padding-top: 10px;
 }
 
 .pt-20 {
   padding-top: 20px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.mb-80 {
+  margin-bottom: 80px;
 }
 /*# sourceMappingURL=all.css.map */
