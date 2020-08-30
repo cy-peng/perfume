@@ -10820,8 +10820,8 @@ img {
 .intro {
   color: #fff;
   position: absolute;
-  left: 600px;
-  top: 200px;
+  left: 1000px;
+  top: 300px;
 }
 
 .intro h1 {
@@ -10944,5 +10944,11 @@ p {
 
 .mb-80 {
   margin-bottom: 80px;
+}
+
+.login h1 {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bolder;
 }
 /*# sourceMappingURL=all.css.map */
