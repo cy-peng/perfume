@@ -10819,9 +10819,9 @@ img {
 
 .intro {
   color: #fff;
-  position: absolute;
-  left: 1000px;
-  top: 300px;
+  /*position: absolute;
+    left:1000px;
+    top:300px;*/
 }
 
 .intro h1 {
@@ -10929,6 +10929,14 @@ p {
   padding-top: 20px;
 }
 
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
 .mr-10 {
   margin-right: 10px;
 }
@@ -10947,6 +10955,10 @@ p {
 
 .mb-80 {
   margin-bottom: 80px;
+}
+
+.mt-100 {
+  margin-top: 100px;
 }
 
 .login h1 {

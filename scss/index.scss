@@ -14,11 +14,12 @@ img{
         color:#8D8D8D;
     }
 }
+
 .intro{
     color:$white;
-    position: absolute;
+    /*position: absolute;
     left:1000px;
-    top:300px;
+    top:300px;*/
     h1{
         font-size:40px;
         line-height:60px;
@@ -111,6 +112,13 @@ p{
     padding-top:20px;
 }
 
+.pt-30{
+    padding-top:30px;
+}
+
+.pb-30{
+    padding-bottom:30px;
+}
 
 .mr-10{
     margin-right:10px;
@@ -132,6 +140,10 @@ p{
 
 .mb-80{
     margin-bottom:80px;
+}
+
+.mt-100{
+    margin-top:100px;
 }
 .login h1{
     font-size:32px;
