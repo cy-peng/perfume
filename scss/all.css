@@ -10873,7 +10873,6 @@ img {
 }
 
 .origin_price {
-  text-decoration: line-through;
   color: #8D8D8D;
 }
 
@@ -10932,6 +10931,10 @@ p {
 
 .mr-10 {
   margin-right: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
 }
 
 .mb-20 {

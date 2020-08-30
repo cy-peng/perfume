@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=">
-    <title>D`PERFUME</title>
-    <link rel="stylesheet" href="scss/all.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>D’Perfume</title>
+        <link rel="stylesheet" href="scss/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      </head>
 <body>
-    <div class="container">
+    <div class="container" data-aos="fade-right">
         <div class="row menu">
           <div class="col pt-10">
             <a href="index.html"><img src="img/logo.png" alt=""></a>
           </div>
           <div class="col d-flex justify-content-around pt-20">
-                <a href=""><img class="mr-10" src="img/tshirt.png" alt="">Product</a>
+            <a href="product.html"><img class="mr-10" src="img/tshirt.png" alt="">Product</a>
                 <a href="login.html"><img class="mr-10" src="img/user.png" alt="">log in</a>
                 <a href=""><img class="mr-10" src="img/heart.png" alt="">Wishlist</a>
                 <a href=""><img  class="mr-10" src="img/cart.png" alt="">Cart(3)</a>
@@ -25,8 +23,7 @@
           </div>
         </div>
 
-
-        <div class="container-fluid brand">
+        <div class="container-fluid brand"data-aos="fade-right">
             <div class="container">
             <div class="row mb-80">
                 <ul class="col-6 d-flex justify-content-between pt-20 list-inline">
@@ -43,10 +40,11 @@
 
         <div class="container">
         <div class="row mb-80  d-flex align-items-center">
-            <div class="col-8">
+            <div class="col-8"data-aos="fade-down">
                 <img src="img/login.png" alt="">
             </div>
-            <div class="col-4 d-flex flex-column">
+            <div class="col-4 d-flex flex-column"data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"data-aos-duration="2500">
                     <form>  
                         <div class="mb-20 login">
                             <h1>Log in</h1>
@@ -67,7 +65,6 @@
         </div>
         </div>
 
-        
     <div class="container-fluid footer">
         <div class="container">
         <div class="row">
@@ -84,7 +81,11 @@
         </div>
     </div>
     </div>
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
     </body>
     </html>
