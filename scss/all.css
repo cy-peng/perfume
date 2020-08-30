@@ -10900,9 +10900,9 @@ p {
 }
 
 .subscribe {
-  position: absolute;
-  left: 300px;
-  top: 200px;
+  /*position: absolute;
+    left:300px;
+    top:200px;*/
 }
 
 .subscribe h1 {
@@ -10957,8 +10957,8 @@ p {
   margin-bottom: 80px;
 }
 
-.mt-250 {
-  margin-top: 2800px;
+.pt-280 {
+  padding-top: 280px;
 }
 
 .login h1 {
